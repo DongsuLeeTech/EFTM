@@ -1,0 +1,11 @@
+cp requirement/params.py ~/flow/flow/core/
+cp requirement/traci.py ~/flow/flow/core/kernel/vehicle/
+cp requirement/DLC_Foward_3ring.py ~/flow/flow/envs/ring/
+cp requirement/lane_change_ring.py ~/flow/flow/networks/
+cp requirement/lane_change_rewards.py ~/flow/flow/core/
+cp requirement/base.py ~/flow/flow/envs/
+cp requirement/fcnet.py ~/anaconda3/envs/flow/lib/python3.7/site-packages/ray/rllib/models/torch/
+cp requirement/__init__.py ~/flow/flow/envs/
+cp requriement/torch_policy.py ~/anaconda3/envs/flow/lib/python3.7/site-packages/ray/rllib/policy/
+cp requirement/gaussian_noise.py ~/anaconda3/envs/flow/lib/python3.7/site-packages/ray/rllib/utils/exploration/
+cp requirement/ddpg_torch_model.py ~/anaconda3/envs/flow/lib/python3.7/site-packages/ray/rllib/agents/ddpg/
